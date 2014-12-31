@@ -1,0 +1,120 @@
+a:link{
+	color: #949470
+}
+a:visited,
+a:active{
+	color: #245E98;
+}
+a:focus,
+a:hover {
+	color: #17A2D1;
+	text-decoration: underline;
+}
+/* @group headings */
+h1.pageHeading {
+	font-size: 2.5em /*28*/;
+	text-align: center;
+	line-height:1em;
+	margin-top:0.1667em /* 6px */;
+	margin-bottom:0.5833em /* 21px */;
+	color: #1E3E48;
+	clear: both;
+	/*text-align: center;*/
+}
+h1 {	
+	font-family: Dosis;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height:2em;
+	margin-top:0.3667em /* 6px */;
+	margin-bottom:0.3667em /* 21px */;
+	color: #1E2234;
+	clear: both;
+	/*text-align: center;*/
+}
+h2 {
+	font-family: Dosis;
+	color: #6B6B5C;
+	font-size: 1.5em /* 18px */;
+	margin-top:1.556em /* 28px */;
+	margin-bottom:0.778em /* 14px */;
+}
+aside h2 {
+	font-family: Dosis;
+	margin-top: 1.1em;
+	margin-bottom: 1.2em;
+}
+h3 {
+	font-family: Dosis;
+	font-size:1.286em /* 18px */;
+	margin-top:1.556em /* 28px */;
+	margin-bottom:0.778em /* 14px */;
+	color: #1E3E48;
+}
+h4 {
+	font-family: Dosis;
+	font-size:1.143em /* 16px */;
+	margin-top:1.3125em /* 21px */;
+	margin-bottom:0.4375em /* 7px */; 
+	color: #1E3E48;
+}
+h5, h6 {
+	font-family: Dosis;
+	color: #1E3E48;
+	font-size:1em /* 14px */;
+	margin-bottom: 0.2em;
+	margin-top: 0.1em;
+	
+}
+p h2,p h3,p h4,p h5, h6 {
+	width: auto;
+	position: relative;
+}
+/* @end */
+/* @group table */
+table {
+	border-bottom: 1px solid #666;
+	line-height: 1.2em;
+}
+th {
+	font-variant: small-caps;
+}
+thead th {
+	border-top: 1px solid #666;
+	border-bottom: 3px solid #666;
+	padding-top: 0;
+	padding-bottom: 0.5em; /* 7px */
+}
+caption {
+	font-weight: bold;
+	padding-bottom: 0.4375em; /* 7px */
+	font-size:1.144em; /* 16px */
+}
+tbody {
+	border-top: 3px solid #666;	/* not rendered in IE6/7 */
+}
+tbody tr th, tbody tr td {
+	border-top: 1px solid #ddd;
+}
+th, td {
+	text-align: left;
+	padding: 0.286em 0.43em 0.214em 0.43em; /* 4px 7px 3px 7px */
+}
+/* @end */
+/* @group blockquotes */
+blockquote {
+	font-style: italic;
+	margin: 0 1.5em 1.5em 1.5em; /* 21px */
+	color: #585858;
+}
+p+p+blockquote {
+	margin-top: 1.5em /* 21px */;
+}
+blockquote cite, blockquote em {
+	font-style: normal;
+}
+/* @end */
+/* @group paragraph */
+p {
+	margin: 0 0 1em 0;
+}

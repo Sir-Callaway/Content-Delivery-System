@@ -1,0 +1,552 @@
+@media all
+{
+    .primary, aside {
+        -webkit-transition: width 1s ease-in-out;
+        -moz-transition: width 1s ease-in-out;
+        -o-transition: width 1s ease-in-out;
+        transition: width 1s ease-in-out;
+    }
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+  
+}
+
+/* Smartphones (landscape) ----------- */
+@media  only screen
+and (min-width : 321px), all
+and (min-device-width : 321px) {
+  
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  html, body{
+    font-size: 0.7em!important;
+    max-width: 100%;
+  }
+  header p.breadcrumbs, .thin-footer h3 {
+    font-size: 0.8em!important;
+  }
+  #search-box {
+    min-width: 100%;
+    text-align: center;
+  }
+  .primary, aside{  
+        clear: both;
+    float: left!important;
+        margin: 0;
+    min-width: 99%;
+  }
+  .primary .primary, .primary aside {
+    min-width: 100%;  
+  }
+  .section {
+    width: 99%;
+  }
+  footer .section {
+    max-width: 100%!important;
+  }
+  #noticeboard {
+    clear: both;
+    display: block;
+    width: 98%;
+  }
+  #newsbulletin {
+    clear: both;
+    display: block;
+    float: left;
+    width: 98%;    
+  }
+  .footlist {
+    display: block!important;
+    max-width: 100%!important;
+  }  
+  .form {
+    width: 98%!important;
+  }
+}
+
+/* In Betweeners ----------- */
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 559px) {
+/* Styles */
+  
+}
+
+@media all
+and (min-device-width : 560px)
+and (max-device-width : 767px) {
+/* Styles */
+  
+  
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media all
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+  
+  
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+  body{
+    font-size: 1em!important;
+  }
+  header p.breadcrumbs, .thin-footer h3 {
+    font-size: 0.99em!importan;
+  }
+  #search-box {
+    min-width: 100%;
+    text-align: center;
+  }
+  .primary, aside{  
+        clear: both;
+    float: left!important;
+        margin: 0;
+    min-width: 99%;
+  }
+  .primary .primary, .primary aside {
+    min-width: 100%;  
+  }
+  footer .section {
+    min-width: 100%!important;
+  }
+  .kcmnews h1 {
+    font-size: 2em;
+  }
+  #noticeboard {
+    clear: both;
+    display: block;
+    min-width: 98%;
+  }
+  #newsbulletin {
+    clear: both;
+    display: block;
+    float: left;
+    min-width: 98%;
+  }
+  .footlist {
+    width: 40%!important;
+    margin-right: 0px!important;
+  }  
+  .form {
+    width: 98%!important;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-device-width : 1224px) {
+/* given by the default */
+  
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* given by the default */
+
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+  
+}
+/* body formatting */
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-color: #22424C;
+  background-image: url(../../images/system/body-bg.png);
+  color: #020F1C;
+  font-family: "Open Sans","Helvetica Neue", sans-serif, Calibri, "Trebuchet MS", "Gill Sans", Frutiger, Univers, arial, helvetica;  
+  font-size: 12px;
+    line-height: 1.7em;
+    position: relative;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+header, footer, .body, .banner {
+  background-color: #fff;
+  width: 100%;
+}
+.body.Departments .pageHeading{
+  float: left!important;
+}
+.section {
+  max-width: 1824px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 90%;
+  /*max-width: 80em;*/
+}
+.component, .content {
+  clear: both;
+  text-align:justify;
+  text-justify:inter-word;
+  width: 99%;
+}
+aside{
+  float: left;
+  padding: 0.1em;
+  width: 20%;
+}
+.primary aside {
+  display: inline;
+  float: right;
+  width: 24%;  
+}
+.primary {
+  width: 78%;
+  float: right;
+  overflow: hidden;
+  margin-top: 0.8em;
+}
+.primary .primary {
+  /*border-left: 1px solid #f1f1ff;
+  border-right: 1px solid #f1f1ff;*/
+  float: left;
+  padding-left: 1%;
+  margin: 0 1% 0 0;
+  width: 73%;
+}
+
+.container {
+  height: auto;
+  min-height: 41em;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container .container {
+  width: 99%;
+  margin-left: 0.5%;
+}
+.container aside .component {
+  border-bottom: 3px solid #223C44!important;
+  padding: 1em 0 1em 0;
+}
+
+.container .primary p a:hover,
+.container .primary p a:focus {
+  color: #74C7E3;
+  border-color: #74C7E3;
+  text-decoration: none!important;
+}
+
+.container .primary p a {
+  color: #313313;
+  border-color: #313313;
+  text-height: 0em;
+  border-bottom: 1px dotted #000;
+}
+.clear {
+  clear: both;
+  width: 100%!important;
+}
+sup {
+    vertical-align: super;
+}
+
+/* @group Layout Constructs */
+
+#main-body .primary, .inner .primary {
+  margin-bottom: 40px;
+}
+/* @group Columns */
+.separator {
+  border-bottom: 1px solid #CCC;
+}
+.column {
+  width: 48.2%;
+  float: left;
+  padding-bottom: 2em;
+}
+.column.even {
+  float: right;
+}
+.column.odd {
+  clear: left;
+}
+/* @end */
+/* @end */
+
+
+.img {  
+  width: 98%;
+  clear: both;
+  display: block;
+  font-size: 10px;
+  text-align: center;
+}
+.img img {
+  clear: both;
+  display: block;
+  border: 1px solid #575858;
+  padding: 0.2em;
+  margin: 0 auto;
+  width: 99%;
+  
+  /* corner radius */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  
+}
+.img h6{
+  display: block;
+  position:relative;
+  bottom: 4em;
+  margin-bottom: -3em;
+  height: 32px;
+  padding: 0.3em 0.15em;
+  left: 0.3em;
+  overflow: hidden;
+  background:#000;
+  background:rgba(0,0,0,.4);
+  width:99%;
+  color:#fff;
+  border:0.5px solid #000;
+  text-align: center;
+  text-shadow:none;
+  
+  /* corner radius */
+    -moz-border-radius: 2.5px;
+    -webkit-border-radius: 2.5px;
+    border-radius: 2.5px;
+}
+.section .primary .container  p,
+.section .primary .container ul {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 0.5em;
+}
+.img img {
+  height: inherit;
+  margin: 0 auto;
+  margin-bottom: -0.3em;
+  width: 100%;
+}
+
+.content_separator{
+  /*background-image: url(../../images/system/trans-brown-70.png);*/
+  border-bottom: 3px solid #223C44;
+  height: auto;
+  
+  
+  /* corner radius *
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;*/
+}
+.content_separator  h1{
+  color: #A90000;
+  float: right;
+  display: inline-block;
+  margin: 0 1em 0 2em;
+  width: auto;
+}
+.content_separator:before{
+  display: inline-block;
+  content: url(../../images/system/icon.png);
+  position: relative;
+  left: 0%;
+  top: 0px;
+  z-index: 9999;
+}
+#noticeboard {
+  clear: left;
+  display: inline;
+  float: left;
+  width: 99%;
+}
+#newsbulletin {
+  clear: right;
+  display: inline;
+  float: left;
+  width: 99%;
+}
+.kcmnews {
+  /*border-left: 1px solid #f1f1ff;
+  border-right: 1px solid #f1f1ff;*/
+  border-top: none;
+  height: auto;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  min-height: 150px;
+  padding: 0;
+}
+.kcmnews .component h1 {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 0.5em;
+}
+.kcmnews .component {
+  display: inline-block;
+  margin-top: 1em;
+}
+.kcmnews .entry-meta {
+  color: #666666;
+  display: block;
+  margin: -0.5em 0 1em 0;
+}
+.kcmnews .kcmnews_dayspan{
+  font-size: 32px;
+  line-height: 0.5em;  
+}
+.kcmnews .kcmnews_datesuffix {
+  display: inline-block;
+  font-size: 0.5em;
+    vertical-align: super;
+}
+.kcmnews .kcmnews_day {
+  display: block;
+}
+.kcmnews .kcmnews_article {
+  display: block;
+}
+.kcmnews .kcmnews_title {
+  font-variant: normal;
+  font-weight: normal!important;
+}
+.kcmnews .kcmnews_title {
+  clear: right;
+  display: block;
+}
+.kcmnews .kcmnews_date {
+  color: #666666;
+  display: inline-block;
+  position: relative;
+}
+.kcmnews h1 a:link,
+.kcmnews h1 a:visited,
+.kcmnews h1 a:active {
+  color: #222222;
+    text-decoration: none;
+  width: auto;
+}
+.kcmnews h1 a:focus,
+.kcmnews h1 a:hover {
+  color: #A90000/*#17A2D1*/;
+    text-decoration: none;
+}
+.read_more {
+  float: right;
+  margin-right: 2em;
+}
+#calendaring {
+  margin: 0px;
+}
+ul.bullets  {
+  margin-left: 3em;
+  list-style: square inside;
+}
+ul.bullets ul.bullets{
+  font-size: 1em!important;
+}
+span.tabbed {
+  position: absolute;
+  left: 40%;
+  float: left;
+}
+ul.tabbed {
+  margin-left: 3em;
+}
+strong, .bold {
+  font-weight: bold;
+}
+.italic, dd {
+  font-style: italic;
+}
+.pic-card {
+  margin-bottom: 2em;
+}
+.pic-card .img{
+  display: inline-block;
+  width: 25%;
+}
+.pic-card .pic-details{
+  display: inline-block;
+  width: 70%;
+  margin-left: 2em;
+  vertical-align: top;  
+}
+.under-construction {
+  width: 98%;
+  text-align: center;
+  font-size: 3em;
+  margin: 0px auto;
+  border: 5px solid #5898AD;
+  
+  /* corner radius */
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.under-construction img {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1em;
+}
+.under-construction p {
+  color: #5898AD;
+  display: inline-block;
+  font-weight: bold;
+  text-shadow: 1.3px 1.3px 1.3px #1E3E48;
+  text-transform: uppercase;
+  width: 75%;
+  height: auto;
+  line-height: 1em;
+}
+.object,
+.object div{
+  margin: 0px auto;
+  text-align: center;
+  width: auto;
+}
+.printPanel {
+  cursor: pointer;
+  display: none;
+  padding: 0.5em;
+  right: 18%;
+  position: absolute;
+  width: auto;
+  /* corner radius */
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.container:hover .printPanel {
+  background-color: rgba(0,0,0,0.7);
+  display: block;
+  -webkit-transition:color 0.8s ease-in, background-color 0.1s ease-in ;  
+    -moz-transition:color 0.8s ease-in, background-color 0.1s ease-in;  
+    -o-transition:color 0.8s ease-in, background-color 0.1s ease-in;  
+    transition:color 0.8s ease-in, background-color 0.1s ease-in;
+}

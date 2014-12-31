@@ -1,0 +1,161 @@
+/* @group Footer */
+footer {
+  border-top: 5px solid #53B2C5;
+  background-color: transparent;
+  /*background-repeat: repeat;
+  background-position: top left;*/
+  clear: both;
+  -webkit-box-shadow: inset 0 0 3px 3px 0 rgba(00,00, 00,0.3);
+  box-shadow: inset 0 0 3px 3px rgba(00, 00, 00,0.3);
+}
+
+}
+footer .primary {
+  margin-top: 0;
+}
+footer h2 {
+  color: #DBDBB7;
+  font-weight: bold;
+  text-shadow: 1.3px 1.3px 1.3px #1E3E48;
+  text-transform: uppercase;
+  width: auto!important;
+}
+footer .textwidget{
+  color:#9c9c9c;
+  font-size: 1em;
+}
+footer .section {
+  /*background-image: url(../../images/system/bg-blue-noise.png);
+  padding-left: 5%;  */
+}
+footer a {
+  color: #9c9c9c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.footlist{
+  float: left;
+  margin-right: 6em;
+  width:15%;
+}
+.footlist li {
+  margin-bottom: 5px;
+  width: 100%;
+}
+.footlist a {
+  color: #9c9c9c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.footlist a img {
+  margin-right: 1em;
+  width: 1.5em;
+}
+.footlist a:hover {
+  text-decoration: none;
+}
+
+.thin-footer .section {
+  background-image: url(../../images/system/trans-black-20.png);
+  background-position: bottom left;
+  background-repeat: repeat;
+  z-index: 9999;
+}
+.thin-footer img, .thin-footer h3 {
+  display: inline-block;
+  position: relevant;
+}
+.thin-footer h3 {
+  color: #DBDBB7;
+  margin: 0.5em;
+  margin-bottom: 1em;
+  line-height: 1em;
+}
+.thin-footer h3 sup {
+  font-size: 0.7em;
+}
+.thin-footer h3:before {
+  content: url(../../images/system/icon.png);
+  margin-right: 1em;
+  position: relative;
+  top: 10px;
+}
+/* Contact Form located on all pages */
+footer .form  {
+  overflow: hidden;
+  display:block;
+  width: 55%;
+}
+
+.footform  {   
+  width: 100%;
+}
+.footform ul {
+  margin:30px 0 0 0;
+  padding:0;
+  overflow:hidden;
+  width: 100%;
+}
+
+.footform ul li {
+  float:left;
+  margin:0;
+  padding:0;
+  width: 45%;
+}
+
+.footform label {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin:0 0 3px 0;
+  display:block;
+}
+
+.footform #name, .footform #mail {
+  width: 80%;
+  height: 21px;
+  border: none;
+  display: block;
+  margin-bottom:10px;
+  padding: 0.8em;
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.footform #name {
+  margin-right:7em;
+}
+
+.footform #text {
+  width: 90%;
+  height: 56px;
+  border: none;
+  display: block;
+  padding: 2px 2px 0px 2px;
+  color: #333333;
+}
+.form #response,.form #soulresponse{
+display: none;
+border: 1px solid #ccc;
+background: #FFFFA0;
+padding: 0.2em;
+width: auto;
+}  
+.form #footsend {
+  margin: 1em 0%;
+}
+.form input, .form #text, .form #response, .form #soulresponse{
+  padding: 5px;
+  /* corner radius */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.form button {
+  display: inline-block;
+}
+/*end*/

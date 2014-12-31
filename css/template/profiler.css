@@ -1,0 +1,20 @@
+.profiler .img {
+	border-color: #DBDBB7!important;
+	display: inline-block;
+	clear: left;
+	float: left;
+	height: auto;
+	margin: 0px auto;
+	max-width: 162px;
+	width: 20%;
+	
+}
+
+.profile-tabs {
+	display: inline-block;
+	clear: right;
+	float: left;
+	margin-left: 5px;
+	padding: 1px;
+	width: 79%;
+}

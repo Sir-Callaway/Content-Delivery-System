@@ -1,0 +1,43 @@
+/* Form Elements Stylesheet */
+
+/* Text Fields */
+input[type="text"] {
+	border: 1px solid #bbb;
+	color: #000;
+	font-family: Tahoma, Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	height: 18px;
+	padding: 2px;
+	width: 180px;
+}
+
+#search-txt {
+	border-right: none;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	color: #616161;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+
+#search-txt:focus {
+	color: #000;
+}
+
+/* Buttons */
+#search-btn {
+	background: #fff url(../../images/system/icon_search.jpg) no-repeat center center;
+	border: 1px solid #bbb;
+	border-left: none;
+	border-radius: 0;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	height: 24px;
+	margin-left: -4px;
+	vertical-align: middle;
+	width: 24px;	
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
